@@ -100,7 +100,7 @@ html.bg-grey-4 body{
 
 /*Nav*/
 
-header > .fielo-outline.fielo-header{
+header.fielo-outline.fielo-header{
     background-color: #2540f8;
 }
 
