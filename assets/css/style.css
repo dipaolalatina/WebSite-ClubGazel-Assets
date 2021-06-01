@@ -98,4 +98,34 @@ html.bg-grey-4 body{
 
 }
 
+/*Nav*/
 
+header > .fielo-outline.fielo-header{
+    background-color: #2540f8;
+}
+
+@media (min-width:1080px) {
+    .fielo-menu.fielo-menu--isHorizontal.fielo-navigation nav.fielo-menu__block ul.fielo-list.fielo-list--is-unordered{
+        padding-top: 30px;
+        padding-left: 430px;
+        background-image: url('../images/ui/logoClubGazel.svg');
+        background-repeat: no-repeat;
+        background-size: 12%;
+        background-position: 10% 50%;
+        background-color: #fff;
+    }
+}
+
+nav.fielo-menu__block > ul.fielo-list.fielo-list--is-unordered > li.fielo-list__item > a.fielo-link{
+    color: #fff;
+    font-family: 'HK Grotesk Bold';
+    text-decoration: none;
+}
+
+nav.fielo-menu__block > ul.fielo-list.fielo-list--is-unordered > li.fielo-list__item > a.fielo-link:hover, 
+nav.fielo-menu__block > ul.fielo-list.fielo-list--is-unordered > li.fielo-list__item > a.fielo-link:visited,
+nav.fielo-menu__block > ul.fielo-list.fielo-list--is-unordered > li.fielo-list__item > a.fielo-link:focus{
+    color: #fff;
+    font-family: 'HK Grotesk Bold';
+    text-decoration: none;
+}
