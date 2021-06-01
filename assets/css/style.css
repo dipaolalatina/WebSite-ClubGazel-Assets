@@ -42,6 +42,16 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'HK Grotesk SemiBold';
+    src: url('../fonts/HKGrotesk-SemiBold.woff2') format('woff2'),
+         url('../fonts/HKGrotesk-SemiBold.woff') format('woff'),
+         url('../fonts/HKGrotesk-SemiBold.svg#terpel_sansbold') format('svg');
+    font-style: normal;
+}
+
+
+
 /*Colores*/
 
 .blue{color: #2540f8!important;}
@@ -136,4 +146,51 @@ nav.fielo-menu__block > ul.fielo-list.fielo-list--is-unordered > li.fielo-list__
 
 @media (min-width:1080px) {
     .fielo-app-menu__btn{display: none;}
+}
+
+/*Footer*/
+
+div.el-footer{
+    background: #2540f8;
+    color: #fff;    
+    padding: 1.5rem 0rem;
+}
+
+div.texto-footer-1{
+    line-height: 1.4rem;
+}
+
+a.footer__link-telefono, 
+a.footer__link-telefono:hover,
+a.footer__link-telefono:visited{
+    color: #fff;
+    text-decoration: none;
+}
+
+a.footer__link-telefono > span.footer-numbers{
+    font-family: 'HK Grotesk Bold';
+    font-size: 1.6rem;
+}
+
+ul.nav-footer-1{
+    list-style: none!important;
+}
+
+li.nav-footer-item > a.nav-footer-link,
+li.nav-footer-item > a.nav-footer-link:visited{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'HK Grotesk Regular', Arial, sans-serif;
+}
+
+li.nav-footer-item > a.nav-footer-link:hover{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'HK Grotesk SemiBold', Arial, sans-serif;
+}
+
+div.el-copyright{
+    background: #9ddf36;
+    color: #fff;
+    font-family: 'HK Grotesk Regular', Arial, sans-serif;
 }
