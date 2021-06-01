@@ -206,3 +206,8 @@ div.fielo-record.fielo-markup.fielo-content.fielo-js-component > span.fielo-outp
 footer.fielo-outline.fielo-footer > div.mdl-grid.fielo-row > div.mdl-cell{
     margin: 0;
 }
+
+footer.fielo-outline.fielo-footer > div.mdl-grid.fielo-row > div.mdl-cell.mdl-cell--12-col{
+    width: calc(100%);
+}
+
