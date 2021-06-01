@@ -194,3 +194,15 @@ div.el-copyright{
     color: #fff;
     font-family: 'HK Grotesk Regular', Arial, sans-serif;
 }
+
+div.fielo-record.fielo-markup.fielo-content.fielo-js-component > h3.fielo-title{
+    display: none!important;
+}
+
+div.fielo-record.fielo-markup.fielo-content.fielo-js-component > span.fielo-output.fielo-output__text > span > table.htmlDetailElementTable{
+    width: 100%;
+}
+
+footer.fielo-outline.fielo-footer > div.mdl-grid.fielo-row > div.mdl-cell{
+    margin: 0;
+}
