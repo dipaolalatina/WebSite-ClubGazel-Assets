@@ -158,12 +158,11 @@ header.fielo-outline.fielo-header{
 
 @media (min-width:1080px) {
     .fielo-menu.fielo-menu--isHorizontal.fielo-navigation nav.fielo-menu__block ul.fielo-list.fielo-list--is-unordered{
-        padding-top: 30px;
-        padding-left: 430px;
         background-image: url('../images/ui/logoClubGazel.svg');
         background-repeat: no-repeat;
         background-size: 12%;
-        background-position: 10% 75%;
+        background-position: 10% 57%;
+        padding: 50px 0px 40px 430px;    
     }
 }
 
@@ -183,6 +182,7 @@ nav.fielo-menu__block > ul.fielo-list.fielo-list--is-unordered > li.fielo-list__
     color: #fff;
     font-family: 'HK Grotesk Bold';
     text-decoration: none;
+    font-size: 1.3rem;
 }
 
 @media (min-width:1080px) {
