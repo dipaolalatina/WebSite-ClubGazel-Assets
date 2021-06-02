@@ -90,6 +90,15 @@ html.bg-grey-4 body{
     background: #ffffff;
 }
 
+@media (min-width: 1080px){
+    main {
+        max-width: 100%;
+        min-height: initial;
+    }
+}
+
+
+
 @media (min-width: 840px){
     .mdl-cell--12-col, .mdl-cell--12-col-desktop.mdl-cell--12-col-desktop {
         width: calc(100%);
