@@ -296,3 +296,24 @@ legend.fielo-title{
     padding: 15px 10px;
 }
 
+div.login__seccion1{
+    padding: 20px 10px;
+}
+
+@media (min-width:1080px) {
+    div.login__seccion1{
+        padding: 50px 10px;
+    }
+}
+
+h1.login__seccion1-titulo{
+    text-decoration: underline;
+    -webkit-text-decoration-color: #9ddf36;
+    text-decoration-color: #9ddf36;
+    text-underline-offset: 33%;
+    line-height: 6rem;
+}
+
+.login__componentBox{
+
+}
