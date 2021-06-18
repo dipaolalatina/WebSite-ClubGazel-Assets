@@ -285,3 +285,14 @@ div.home__seccionMapa{
     padding-top: 4rem;
     padding-bottom: 3rem;
 }
+
+/* LOGIN */
+
+legend.fielo-title{
+    display: none!important;
+}
+
+.header__nav-responsive{
+    padding: 15px 10px;
+}
+
