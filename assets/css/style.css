@@ -399,7 +399,21 @@ h2.registro__headinType3{
     display: none;
 }
 
-.registro__form > div.slds-scope > div > div > label.slds-form-element__label{
+.slds-form-element__label{
+    color: #002382;
+    font-family: 'HK Grotesk Regular';
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.slds-select,
+.slds-input{
+    border: 1px solid #ccc;
+    border-radius: 0;
+    color: #999999;
+}
+
+/* .registro__form > div.slds-scope > div > div > label.slds-form-element__label{
     color: #002382;
     font-family: 'HK Grotesk Regular';
     font-size: 1.3rem;
@@ -411,5 +425,5 @@ h2.registro__headinType3{
     border: 1px solid #ccc;
     border-radius: 0;
     color: #999999;
-}
+} */
 
