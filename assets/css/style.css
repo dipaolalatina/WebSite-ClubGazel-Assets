@@ -326,11 +326,20 @@ p.login__seccion1-subtitulo{
 
 div.fieloplt-login > form > fieldset,
 div.fieloplt-login > form > fieldset > div.fielo-field--is-username > div {
-    margin-bottom: 1.3rem;
+    margin-bottom: 1.3rem!important;
 }
 
-div.fieloplt-login > form > fieldset > div.fielo-field--is-username .fielo-field > div.fielo-field__label,
-div.fieloplt-login > form > fieldset > div.fielo-field--is-password .fielo-field >  div.fielo-field__label{
+/* div.fieloplt-login > form > fieldset > div.fielo-field--is-username .fielo-field > div.fielo-field__label,
+div.fieloplt-login > form > fieldset > div.fielo-field--is-password .fielo-field > div.fielo-field__label{
+    color: #002382;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-right: 30px;
+    text-align: right;
+} */
+
+.fielo-field--is-username > div,
+.fielo-field--is-password > div{
     color: #002382;
     font-size: 1.2em;
     font-weight: bold;
