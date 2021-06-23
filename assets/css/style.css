@@ -392,5 +392,9 @@ h1.registro__headinType2{
 
 h2.registro__headinType3{
     font-family: 'HK Grotesk Regular';
-    font-size: 1.1rem;
+    font-size: 1.7rem;
+}
+
+.registro__form > div.slds-media__body{
+    display: none;
 }
