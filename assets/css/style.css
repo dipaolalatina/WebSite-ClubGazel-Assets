@@ -324,6 +324,7 @@ p.login__seccion1-subtitulo{
 
 }
 
+div.fieloplt-login > form > fieldset,
 div.fieloplt-login > form > fieldset > div.fielo-field--is-username > div {
     margin-bottom: 1.3rem;
 }
@@ -335,4 +336,32 @@ div.fieloplt-login > form > fieldset > div.fielo-field--is-password > div > div.
     font-weight: bold;
     padding-right: 30px;
     text-align: right;
+}
+
+div.fieloplt-login > form > fieldset > div.fielo-field--is-username > div > div.fielo-field__value > input,
+div.fieloplt-login > form > fieldset > div.fielo-field--is-password > div > div.fielo-field__value > input{
+    width: 33%;
+    min-width: 250px;
+    border: 1px solid #cccccc;
+}
+
+div.fieloplt-login > form > div.fielo-controls{
+    text-align: center;
+}
+
+div.fieloplt-login > form > div.fielo-controls > button.fieloplt-login__submit{
+    background: #2540f8;
+    border: 0;
+    color: #9ddf36;
+    font-size: 1.3rem;
+    outline: none;
+    padding: 5px 60px;
+}
+
+div.fieloplt-login > form > div.fielo-controls > a.fielo-login__link,
+div.fieloplt-login > form > div.fielo-controls > a.fielo-login__link:hover,
+div.fieloplt-login > form > div.fielo-controls > a.fielo-login__link:focus,
+div.fieloplt-login > form > div.fielo-controls > a.fielo-login__link:visited{
+    color: #053eff;
+    font-size: 1.2em;
 }
