@@ -423,3 +423,13 @@ h2.registro__headinType3{
     font-size: 1rem!important;
 }
 
+.slds-form-element > a
+
+.slds-scope .slds-p-around_small a, .slds-scope .slds-p-around--small a{
+    background: #2540f8;
+    border-radius: 0;
+    color: #9ddf36;
+    font-family: 'HK Grotesk Regular';
+    font-size: 1.2rem;
+    padding: 5px 50px;
+}
