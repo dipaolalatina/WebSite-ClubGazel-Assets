@@ -399,15 +399,15 @@ h2.registro__headinType3{
     display: none;
 }
 
-.slds-form-element__label{
+.registro__form > .slds-form-element__label{
     color: #002382;
     font-family: 'HK Grotesk Regular';
     font-size: 1.3rem;
     font-weight: bold;
 }
 
-.slds-select,
-.slds-input{
+.registro__form > .slds-select,
+.registro__form > .slds-input{
     border: 1px solid #ccc;
     border-radius: 0;
     color: #999999;
