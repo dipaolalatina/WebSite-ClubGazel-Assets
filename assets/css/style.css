@@ -104,7 +104,7 @@ html.bg-grey-4 body{
         width: calc(100%);
     }
 
-    /* .mdl-cell{margin: 0!important;} */
+    .mdl-cell{margin: 0!important;}
 }
 
 /*Elements*/
@@ -338,8 +338,8 @@ div.fieloplt-login > form > fieldset > div.fielo-field--is-password .fielo-field
     text-align: right;
 }
 
-div.fieloplt-login > form > fieldset > div.fielo-field--is-username .fielo-field > div.fielo-field__value > input,
-div.fieloplt-login > form > fieldset > div.fielo-field--is-password .fielo-field > div.fielo-field__value > input{
+div.fielo-form .fieloplt-login > form > fieldset > div.fielo-field--is-username .fielo-field > div.fielo-field__value > input,
+div.fielo-form .fieloplt-login > form > fieldset > div.fielo-field--is-password .fielo-field > div.fielo-field__value > input{
     width: 33%;
     min-width: 250px;
     border: 1px solid #cccccc;
@@ -354,6 +354,7 @@ div.fieloplt-login > form > div.fielo-controls > button.fieloplt-login__submit{
     border: 0;
     color: #9ddf36;
     font-size: 1.3rem;
+    margin-bottom: 1.2rem;
     outline: none;
     padding: 5px 60px;
 }
