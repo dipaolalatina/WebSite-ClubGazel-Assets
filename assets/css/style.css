@@ -398,3 +398,18 @@ h2.registro__headinType3{
 .registro__form > div.slds-media__body{
     display: none;
 }
+
+.registro__form > div.slds-scope > div > div > label.slds-form-element__label{
+    color: #002382;
+    font-family: 'HK Grotesk Regular';
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.registro__form > div.slds-scope > div > div > label.slds-form-element__label > div.slds-form-element__control > div.slds-select_container > select.slds-select,
+.registro__form > div.slds-scope > div > div > label.slds-form-element__label > div.slds-form-element__control > div.slds-select_container > input.slds-input{
+    border: 1px solid #ccc;
+    border-radius: 0;
+    color: #999999;
+}
+
