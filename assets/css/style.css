@@ -347,8 +347,8 @@ div.fieloplt-login > form > fieldset > div.fielo-field--is-password .fielo-field
     text-align: right;
 }
 
-div.fielo-form .fieloplt-login > form > fieldset > div.fielo-field--is-username .fielo-field > div.fielo-field__value > input,
-div.fielo-form .fieloplt-login > form > fieldset > div.fielo-field--is-password .fielo-field > div.fielo-field__value > input{
+.fielo-field--is-username > .fielo-field__value > input,
+.fielo-field--is-password > .fielo-field__value > input{
     width: 33%;
     min-width: 250px;
     border: 1px solid #cccccc;
