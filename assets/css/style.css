@@ -314,6 +314,25 @@ h1.login__seccion1-titulo{
     line-height: 6rem;
 }
 
+p.login__seccion1-subtitulo{
+    color: #002382;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
 .login__componentBox{
 
+}
+
+div.fieloplt-login > form > fieldset > div.fielo-field--is-username > div {
+    margin-bottom: 1.3rem;
+}
+
+div.fieloplt-login > form > fieldset > div.fielo-field--is-username > div > div.fielo-field__label,
+div.fieloplt-login > form > fieldset > div.fielo-field--is-password > div > div.fielo-field__label{
+    color: #002382;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-right: 30px;
+    text-align: right;
 }
