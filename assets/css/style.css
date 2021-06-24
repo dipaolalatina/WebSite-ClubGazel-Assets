@@ -540,3 +540,9 @@ p.quienesSomos__seccion-3-txt{
         max-width: 187px;
     }
 }
+
+/* YA ERES PARTE */
+
+.slds-media__body{
+    display: none!important;
+}
