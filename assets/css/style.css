@@ -423,9 +423,7 @@ h2.registro__headinType3{
     font-size: 1rem!important;
 }
 
-.slds-form-element > a
-
-.slds-scope .slds-p-around_small a, .slds-scope .slds-p-around--small a{
+.slds-form-element .slds-p-around_small .slds-align_absolute-center a{
     background: #2540f8;
     border-radius: 0;
     color: #9ddf36;
