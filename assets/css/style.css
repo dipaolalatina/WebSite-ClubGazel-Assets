@@ -305,6 +305,10 @@ legend.fielo-title{
     padding: 15px 10px;
 }
 
+.header__nav-responsive-logo{
+    width: 160px;
+}
+
 div.login__seccion1{
     padding: 20px 10px;
 }
