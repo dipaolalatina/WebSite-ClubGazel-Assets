@@ -423,7 +423,7 @@ h2.registro__headinType3{
     font-size: 1rem!important;
 }
 
-.slds-form-element .slds-p-around_small .slds-align_absolute-center a{
+a#idSaveButon{
     background: #2540f8;
     border-radius: 0;
     color: #9ddf36;
