@@ -566,3 +566,15 @@ p.quienesSomos__seccion-3-txt{
 .yaEresParte__seccion-1-row{
     min-height: 400px;
 }
+
+/* POLITICAS */
+
+.politicas__seccion-1{
+    background: #f7f7f7;
+}
+
+p.politicas__parrafo{
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    text-align: justify;
+}
