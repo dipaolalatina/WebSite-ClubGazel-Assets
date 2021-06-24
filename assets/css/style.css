@@ -68,6 +68,8 @@
 
 .white{color: #ffffff!important;}
 
+.opa-0{opacity: 0;}
+
 html, body{
     padding: 0;
     margin: 0;
@@ -430,4 +432,103 @@ a#idSaveButon{
     font-family: 'HK Grotesk Regular';
     font-size: 1.2rem;
     padding: 5px 50px;
+}
+
+
+/* QUIENES SOMOS */
+
+p.quienesSomos__seccion-1-parrafo{
+    color: #002382;
+    font-size: 1.2rem;
+}
+
+@media (min-width:1080px) {
+    p.quienesSomos__seccion-1-parrafo{
+        color: #002382;
+        font-size: 1.4rem;
+    }
+}
+
+.quienesSomos__seccion-2{
+    background-color: #2540f8;
+    background-image: url(../images/quienes-somos/quienesSomos__elemento1.png);
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 470px;
+}
+
+@media (min-width:1080px) {
+    .quienesSomos__seccion-2{
+        background-position: 100% 50%;
+        background-size: 50%;
+    }
+}
+
+.quienesSomos__seccion-2-row{
+    min-height: 470px;
+}
+
+h1.quienesSomos__titulo2-blanco{
+    color: #fff;
+    font-family: 'Sansation Light';
+}
+
+h1.quienesSomos__titulo2-azul{
+    color: #053eff;
+    font-family: 'Sansation Light';
+}
+
+ul.quienesSomos__lista1-blanco{
+    color: #fff;
+    margin-top: 30px;
+}
+
+ul.quienesSomos__lista1-blanco > li{
+    color: #fff;
+    font-family: 'HK Grotesk Regular';
+    font-size: 1.3rem;
+}
+
+ul.quienesSomos__lista1-azul{
+    color: #002382;
+    margin-top: 30px;
+}
+
+ul.quienesSomos__lista1-azul > li{
+    color: #002382;
+    font-family: 'HK Grotesk Regular';
+    font-size: 1.3rem;
+}
+
+div.quienesSomos__seccion-3-icons{
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 40px;
+}
+
+@media (min-width:1400px) {
+    div.quienesSomos__seccion-3-icons.borde{
+        border-left: 1px solid #9ddf36;
+    }
+}
+
+p.quienesSomos__seccion-3-txt{
+    color: #053eff;
+    font-family: 'HK Grotesk Regular';
+    padding-top: 10px;
+}
+
+.quienesSomos__seccion-4{
+    background: #f7f7f7;
+}
+
+.quienesSomos__elemento2-img{
+    max-width: 130px;
+}
+
+@media (min-width:1080px) {
+    .quienesSomos__elemento2-img{
+        max-width: 187px;
+    }
 }
