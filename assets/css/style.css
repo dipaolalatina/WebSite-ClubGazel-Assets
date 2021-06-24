@@ -333,9 +333,9 @@ p.login__seccion1-subtitulo{
     font-weight: bold;
 }
 
-.login__componentBox{
+/* .login__componentBox{
 
-}
+} */
 
 div.fieloplt-login > form > fieldset,
 div.fieloplt-login > form > fieldset > div.fielo-field--is-username > div {
@@ -545,4 +545,24 @@ p.quienesSomos__seccion-3-txt{
 
 .slds-media__body{
     display: none!important;
+}
+
+.yaEresParte__seccion-1{
+    background-color: #f7f7f7;
+    background-image: url(../images/ya-eres-parte/yaEresParte__elemento-1.png);
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 400px;
+}
+
+@media (min-width:1080px) {
+    .yaEresParte__seccion-1{
+        background-position: 100% 50%;
+        background-size: 50%;
+    }
+}
+
+.yaEresParte__seccion-1-row{
+    min-height: 400px;
 }
