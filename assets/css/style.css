@@ -513,6 +513,10 @@ div.quienesSomos__seccion-3-icons{
     }
 }
 
+div.quienesSomos__seccion-3-icons > img{
+    max-width: 95px;
+}
+
 p.quienesSomos__seccion-3-txt{
     color: #053eff;
     font-family: 'HK Grotesk Regular';
