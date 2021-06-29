@@ -578,3 +578,21 @@ p.politicas__parrafo{
     line-height: 1.5rem;
     text-align: justify;
 }
+
+/* MI PERFIL */
+
+h1.miPerfil__nombre{
+    font-family: 'Sansation Light';
+}
+
+h1.miPerfil__nombre > span.bold{
+    font-family: 'Sansation Regular';
+}
+
+h4.miPerfil__puntos{
+    font-family: 'HK Grotesk Regular';
+}
+
+div.miPerfil__welcomeBox > div > span > span > table.htmlDetailElementTable{
+    width: 100%;
+}
