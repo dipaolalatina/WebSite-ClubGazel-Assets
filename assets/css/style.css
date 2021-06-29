@@ -612,3 +612,8 @@ div.miPerfil__misAcumulaciones > table > thead.fielo-table__head > tr{
     color: #143dff;
     font-family: 'HK Grotesk Regular';
 }
+
+div.miPerfil__misAcumulaciones > table.mdl-data-table th{
+    color: #143dff;
+    text-align: center;
+}
