@@ -596,3 +596,13 @@ h4.miPerfil__puntos{
 div.miPerfil__welcomeBox > div > span > span > table.htmlDetailElementTable{
     width: 100%;
 }
+
+div.miPerfil__misAcumulaciones{
+    margin-bottom: 50px;
+}
+
+div.miPerfil__misAcumulaciones > h3.fielo-title, div.miPerfil__misRedenciones > h3.fielo-title{
+    color: #002382!important;
+    font-family: 'HK Grotesk Regular';
+    text-align: center;
+}
