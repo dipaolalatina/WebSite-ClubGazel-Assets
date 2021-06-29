@@ -607,13 +607,19 @@ div.miPerfil__misAcumulaciones > h3.fielo-title, div.miPerfil__misRedenciones > 
     text-align: center;
 }
 
-div.miPerfil__misAcumulaciones > table > thead.fielo-table__head > tr{
+div.miPerfil__misAcumulaciones > table > thead.fielo-table__head > tr, div.miPerfil__misRedenciones > table > thead.fielo-table__head > tr{
     background-color: #e3e3e3;
     color: #143dff;
     font-family: 'HK Grotesk Regular';
 }
 
-div.miPerfil__misAcumulaciones > table.mdl-data-table th{
+div.miPerfil__misAcumulaciones > table.mdl-data-table th, div.miPerfil__misRedenciones > table.mdl-data-table th{
     color: #143dff;
+    height: 30px;
+    padding: 5px 0;
     text-align: center;
+}
+
+div.miPerfil__misAcumulaciones > table.mdl-data-table td, div.miPerfil__misRedenciones > table.mdl-data-table td{
+    vertical-align: middle;
 }
