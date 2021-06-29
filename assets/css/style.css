@@ -606,3 +606,9 @@ div.miPerfil__misAcumulaciones > h3.fielo-title, div.miPerfil__misRedenciones > 
     font-family: 'HK Grotesk Regular';
     text-align: center;
 }
+
+div.miPerfil__misAcumulaciones > table > thead.fielo-table__head > tr{
+    background-color: #e3e3e3;
+    color: #143dff;
+    font-family: 'HK Grotesk Regular';
+}
