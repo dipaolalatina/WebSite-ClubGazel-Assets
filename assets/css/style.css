@@ -616,10 +616,23 @@ div.miPerfil__misAcumulaciones > table > thead.fielo-table__head > tr, div.miPer
 div.miPerfil__misAcumulaciones > table.mdl-data-table th, div.miPerfil__misRedenciones > table.mdl-data-table th{
     color: #143dff;
     height: 30px;
+    margin-bottom: 30px;
     padding: 5px 0;
-    text-align: center;
+    text-align: center;    
 }
 
 div.miPerfil__misAcumulaciones > table.mdl-data-table td, div.miPerfil__misRedenciones > table.mdl-data-table td{
+    text-align: center;
     vertical-align: middle;
+}
+
+nav.fielo-paginator{
+    margin-top: 20px;
+    text-align: right;
+}
+
+nav.fielo-paginator > a.fielo-link__previous, nav.fielo-paginator > a.fielo-link__next{
+    border: 1px solid #99abff;
+    font-weight: bold;
+    padding: 5px 20px;    
 }
