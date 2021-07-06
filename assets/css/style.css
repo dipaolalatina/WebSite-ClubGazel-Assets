@@ -637,3 +637,16 @@ nav.fielo-paginator > a.fielo-link__previous, nav.fielo-paginator > a.fielo-link
     font-weight: bold;
     padding: 5px 20px;    
 }
+
+/* REDIME */
+
+.redime__contenedorWidget{}
+
+.slds-scope .slds-nav-vertical__title{
+    color: #1f40ee;
+    font-family: 'Sansation Regular';
+}
+
+.slds-scope .slds-nav-vertical__action{
+    font-family: 'HK Grotesk Regular';
+}
