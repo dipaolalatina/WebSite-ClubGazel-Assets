@@ -738,14 +738,23 @@ footer.slds-card__footer > div.slds-clearfix > div.slds-float_right > p > a.slds
 
 div.slds-card__body.slds-card__body_inner.slds-grid.slds-grid_vertical > div{
     text-align: center;
+    font-family: 'HK Grotesk Regular';
 }
 
 div.slds-card__body.slds-card__body_inner.slds-grid.slds-grid_vertical > div > img{
     max-height: 200px;
-    max-width: 75%;    
+    max-width: 75%;
+    margin-bottom: 20px; 
 }
 
 div.slds-section__title-action{
     display: none!important;
 }
 
+.slds-scope .slds-card{    
+    background-image: url('../images/ui/redime__logo.png');
+    background-position: 25px 20px;
+    background-repeat: no-repeat;
+    background-size: 93px;    
+    padding-top: 60px;
+}
