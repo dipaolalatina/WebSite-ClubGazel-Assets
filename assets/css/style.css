@@ -782,12 +782,20 @@ h4.redime_subtitulo{
 
 div#modalRedencionContent > article.slds-card{
     background-color: #f0f0f0;
+    background-image: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .tituloProducto{
     background: #fff;
+    background-image: url(../images/ui/redime__logo.png);
+    background-position: 25px 20px;
+    background-repeat: no-repeat;
+    background-size: 93px;
     margin: 0px 20px;
-    width: 55%!important;;
+    padding-top: 50px;
+    width: 55%!important;
 }
 
 div.redimirModalImagen > div.slds-form-element > div.slds-form-element__control > div > img{
@@ -799,7 +807,7 @@ div.redimirModalImagen > div.slds-form-element{
 }
 
 div.slds-card__header{
-    display: none;
+    display: none!important;
 }
 
 h2.slds-card__header-title > span{
