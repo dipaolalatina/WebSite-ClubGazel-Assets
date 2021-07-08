@@ -725,11 +725,11 @@ footer.slds-card__footer > div.slds-clearfix > div.slds-float_right > a.slds-car
     text-transform: uppercase;
 }
 
-div.slds-card__body .slds-card__body_inner .slds-grid .slds-grid_vertical > div{
+div.slds-card__body.slds-card__body_inner.slds-grid.slds-grid_vertical > div{
     text-align: center;
 }
 
-div.slds-card__body .slds-card__body_inner .slds-grid .slds-grid_vertical > div > img{
+div.slds-card__body.slds-card__body_inner.slds-grid.slds-grid_vertical > div > img{
     max-height: 200px;
     max-width: 75%;    
 }
