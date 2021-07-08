@@ -70,6 +70,8 @@
 
 .opa-0{opacity: 0;}
 
+.bg-grey{background-color: #ededed!important;}
+
 html, body{
     padding: 0;
     margin: 0;
@@ -77,10 +79,6 @@ html, body{
     font-family: 'HK Grotesk Light', Arial, sans-serif!important;
     font-style: normal;
     font-weight: 500;
-}
-
-html.bg-grey-3 body{
-    background: #ffffff;
 }
 
 table, tr, th, td{
@@ -95,9 +93,6 @@ table.htmlDetailElementTable > tbody > tr > td, table.htmlDetailElementTable > t
     padding: 0px!important;
 }
 
-html.bg-grey-4 body{
-    background: #ffffff;
-}
 
 @media (min-width: 1080px){
     main {
@@ -105,7 +100,6 @@ html.bg-grey-4 body{
         min-height: initial;
     }
 }
-
 
 
 @media (min-width: 840px){
@@ -674,9 +668,15 @@ nav.fielo-paginator > a.fielo-link__previous, nav.fielo-paginator > a.fielo-link
 
 .redime__contenedorWidget{}
 
-.slds-scope .slds-nav-vertical__title{
-    color: #1f40ee;
-    font-family: 'Sansation Regular';
+nav.slds-nav-vertical{
+    background: #fff;
+}
+
+h2.slds-scope .slds-nav-vertical__title{
+    color: #fff;
+    font-family: 'Sansation Light';
+    font-size: 2rem;
+    padding: .8rem 1rem;
 }
 
 .slds-scope .slds-nav-vertical__action{
