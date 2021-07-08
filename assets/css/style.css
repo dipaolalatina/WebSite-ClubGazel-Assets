@@ -739,11 +739,12 @@ footer.slds-card__footer > div.slds-clearfix > div.slds-float_right > p > a.slds
 div.slds-card__body.slds-card__body_inner.slds-grid.slds-grid_vertical > div{
     text-align: center;
     font-family: 'HK Grotesk Regular';
+    font-size: 1.2rem;
 }
 
 div.slds-card__body.slds-card__body_inner.slds-grid.slds-grid_vertical > div > img{
-    max-height: 200px;
-    max-width: 75%;
+    max-height: 135px;
+    max-width: 50%;
     margin-bottom: 20px; 
 }
 
@@ -777,4 +778,8 @@ h1.redime__titulo{
 h4.redime_subtitulo{
     font-family: 'HK Grotesk Regular';
     font-size: 1.2rem;    
+}
+
+div#modalRedencionContent > article.slds-card{
+    background-color: #f0f0f0;
 }
