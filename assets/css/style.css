@@ -672,7 +672,7 @@ nav.slds-nav-vertical{
     background: #fff;
 }
 
-h2.slds-scope .slds-nav-vertical__title{
+nav.slds-nav-vertical > div.slds-nav-vertical__section > h2.slds-nav-vertical__title{
     color: #fff;
     font-family: 'Sansation Light';
     font-size: 2rem;
