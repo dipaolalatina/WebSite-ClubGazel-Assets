@@ -787,7 +787,7 @@ div#modalRedencionContent > article.slds-card{
 .tituloProducto{
     background: #fff;
     margin: 0px 20px;
-    width: 55%;
+    width: 55%!important;;
 }
 
 div.redimirModalImagen > div.slds-form-element > div.slds-form-element__control > div > img{
@@ -796,4 +796,42 @@ div.redimirModalImagen > div.slds-form-element > div.slds-form-element__control 
 
 div.redimirModalImagen > div.slds-form-element{
     padding: 0;
+}
+
+div.slds-card__header{
+    display: none;
+}
+
+h2.slds-card__header-title > span{
+    font-family: 'HK Grotesk SemiBold';
+    font-size: 1.4rem;
+}
+
+div.redimirModalImagen > div.slds-form-element > div.slds-form-element__control > div.slds-align_absolute-center{
+    background-color: #002380;
+    margin-top: 20px;
+    padding: 20px 5px;
+}
+
+div.redimirModalImagen > div.slds-form-element > div.slds-form-element__control > div.slds-align_absolute-center > h3{
+    color: #9ddf36;
+    font-family: 'HK Grotesk SemiBold';
+}
+
+div.redimirModalImagen > div.slds-form-element > a.slds-button{    
+    background: #143dff;
+    border: 0;
+    border-radius: 0;
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 8px 5px;
+    text-transform: uppercase;    
+}
+
+div.redimirModalEDS > div.slds-form-element > div.slds-form-element__control > div.slds-form-element{
+    margin-bottom: 10px;
+}
+
+div.redimirModalEDS > div.slds-form-element > div.slds-form-element__control > div.slds-form-element > label.slds-form-element__label{
+    font-size: .9rem!important;
 }
