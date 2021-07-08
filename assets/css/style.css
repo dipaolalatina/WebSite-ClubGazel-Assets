@@ -673,6 +673,7 @@ nav.slds-nav-vertical{
 }
 
 nav.slds-nav-vertical > div.slds-nav-vertical__section > h2.slds-nav-vertical__title{
+    background-color: #143dff;
     color: #fff;
     font-family: 'Sansation Light';
     font-size: 2rem;
