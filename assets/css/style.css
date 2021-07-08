@@ -702,6 +702,10 @@ div#idBalancePuntos{
     padding: 0;
 }
 
+footer.slds-card__footer > div.slds-clearfix{
+    background-color: #143dff;
+}
+
 footer.slds-card__footer > div.slds-clearfix > div.slds-float_left, 
 footer.slds-card__footer > div.slds-clearfix > div.slds-float_right{    
     padding: .4rem;
@@ -734,3 +738,8 @@ div.slds-card__body.slds-card__body_inner.slds-grid.slds-grid_vertical > div > i
     max-height: 200px;
     max-width: 75%;    
 }
+
+div.slds-section__title-action{
+    display: none;
+}
+
