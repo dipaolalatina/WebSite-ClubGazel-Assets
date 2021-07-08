@@ -682,3 +682,54 @@ h2.slds-scope .slds-nav-vertical__title{
 .slds-scope .slds-nav-vertical__action{
     font-family: 'HK Grotesk Regular';
 }
+
+div.slds-nav-vertical__section > ul {
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+
+li.slds-nav-vertical__item > a > span.slds-assistive-text{
+    font-family: 'HK Grotesk Regular';
+    color: #1c297a;
+}
+
+div#idBalancePuntos{
+    display: none;
+}
+
+.slds-scope .slds-card__footer{
+    padding: 0;
+}
+
+footer.slds-card__footer > div.slds-clearfix > div.slds-float_left, 
+footer.slds-card__footer > div.slds-clearfix > div.slds-float_right{    
+    padding: .4rem;
+    width: 50%;
+    text-align: center;
+}
+
+footer.slds-card__footer > div.slds-clearfix > div.slds-float_left{
+    background-color: #002380;
+    color: #9ddf36;
+}
+
+footer.slds-card__footer > div.slds-clearfix > div.slds-float_right{
+    background-color: #143dff;
+    color: #fff;
+    font-family: 'HK Grotesk Regular';
+}
+
+footer.slds-card__footer > div.slds-clearfix > div.slds-float_right > a.slds-card__footer-action{
+    color: #fff;
+    font-family: 'HK Grotesk Regular';
+    text-transform: uppercase;
+}
+
+div.slds-card__body .slds-card__body_inner .slds-grid .slds-grid_vertical > div{
+    text-align: center;
+}
+
+div.slds-card__body .slds-card__body_inner .slds-grid .slds-grid_vertical > div > img{
+    max-height: 200px;
+    max-width: 75%;    
+}
