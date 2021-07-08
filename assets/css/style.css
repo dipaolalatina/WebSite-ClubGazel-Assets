@@ -724,10 +724,16 @@ footer.slds-card__footer > div.slds-clearfix > div.slds-float_right{
     font-family: 'HK Grotesk Regular';
 }
 
-footer.slds-card__footer > div.slds-clearfix > div.slds-float_right > a.slds-card__footer-action{
-    color: #fff;
+footer.slds-card__footer > div.slds-clearfix > div.slds-float_right > p > a.slds-card__footer-action{
+    color: #fff!important;
     font-family: 'HK Grotesk Regular';
     text-transform: uppercase;
+}
+
+footer.slds-card__footer > div.slds-clearfix > div.slds-float_right > p > a.slds-card__footer-action:hover, 
+footer.slds-card__footer > div.slds-clearfix > div.slds-float_right > p > a.slds-card__footer-action:visited{
+    color: #fff!important;
+    font-family: 'HK Grotesk SemiBold';
 }
 
 div.slds-card__body.slds-card__body_inner.slds-grid.slds-grid_vertical > div{
@@ -740,6 +746,6 @@ div.slds-card__body.slds-card__body_inner.slds-grid.slds-grid_vertical > div > i
 }
 
 div.slds-section__title-action{
-    display: none;
+    display: none!important;
 }
 
