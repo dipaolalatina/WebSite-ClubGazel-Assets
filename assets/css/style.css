@@ -783,3 +783,13 @@ h4.redime_subtitulo{
 div#modalRedencionContent > article.slds-card{
     background-color: #f0f0f0;
 }
+
+.tituloProducto{
+    background: #fff;
+    margin: 0px 20px;
+    width: 55%;
+}
+
+div.redimirModalImagen > div.slds-form-element > div.slds-form-element__control > div > img{
+    width: 50%;
+}
