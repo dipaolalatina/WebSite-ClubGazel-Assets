@@ -793,3 +793,7 @@ div#modalRedencionContent > article.slds-card{
 div.redimirModalImagen > div.slds-form-element > div.slds-form-element__control > div > img{
     width: 50%;
 }
+
+div.redimirModalImagen > div.slds-form-element{
+    padding: 0;
+}
