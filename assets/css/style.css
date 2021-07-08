@@ -758,3 +758,13 @@ div.slds-section__title-action{
     background-size: 93px;    
     padding-top: 60px;
 }
+
+h1.redime__nombre {
+    font-family: 'HK Grotesk Regular';
+    font-size: 1.2rem;
+}
+
+h4.redime__puntos {
+    font-family: 'HK Grotesk Regular';
+    font-size: 1.2rem;
+}
