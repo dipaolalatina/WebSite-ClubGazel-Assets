@@ -780,7 +780,7 @@ h4.redime_subtitulo{
     font-size: 1.2rem;    
 }
 
-div#modalRedencionContent > article.slds-card{
+div#modalRedencionContent > article.slds-card, div#modalRedencionExitosaContent > article.slds-card{
     background-color: #f0f0f0;
     background-image: none;
     padding-top: 20px;
@@ -842,4 +842,44 @@ div.redimirModalEDS > div.slds-form-element > div.slds-form-element__control > d
 
 div.redimirModalEDS > div.slds-form-element > div.slds-form-element__control > div.slds-form-element > label.slds-form-element__label{
     font-size: .9rem!important;
+}
+
+div#modalRedencionExitosaContent > article.slds-card > div.slds-card__body{
+    margin-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;    
+}
+
+div#modalRedencionExitosaContent > article.slds-card > div.slds-card__body > div.custom-container > div > div.slds-form-element{
+    padding-bottom: 0;
+}
+
+div#modalRedencionExitosaContent > article.slds-card > div.slds-card__body > div.custom-container > div > div.slds-form-element > div.slds-form-element__control > div.slds-size_1-of-1, 
+div#modalRedencionExitosaContent > article.slds-card > div.slds-card__body > div.custom-container > div > div.slds-form-element > div.slds-form-element__control > div.slds-size_1-of-1 > p{
+    text-align: center;
+}
+
+div#modalRedencionExitosaContent > article.slds-card > div.slds-card__body > div.custom-container > div > div.slds-form-element > div.slds-form-element__control > div{
+    background: #1c297a;
+    color: #fff;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+div#modalRedencionExitosaContent > article.slds-card > footer.slds-card__footer{
+    background: #1c297a;
+    margin: 0;
+    padding: 5px 0px;
+}
+
+div#modalRedencionExitosaContent > article.slds-card > footer.slds-card__footer > a.slds-card__footer-action{
+    background: #143dff;
+    color: #96d63a;
+    font-size: 1.2rem;
+    margin: 0 auto 20px auto;
+    max-width: 33%;
+    padding: 5px 40px;    
+    text-align: center;
+    text-decoration: none;
 }
