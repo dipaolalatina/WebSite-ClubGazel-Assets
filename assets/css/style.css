@@ -784,7 +784,7 @@ div#modalRedencionContent > article.slds-card, div#modalRedencionExitosaContent 
     background-color: #f0f0f0;
     background-image: none;
     padding-top: 20px;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 
 .tituloProducto{
@@ -855,8 +855,18 @@ div#modalRedencionExitosaContent > article.slds-card > div.slds-card__body > div
 }
 
 div#modalRedencionExitosaContent > article.slds-card > div.slds-card__body > div.custom-container > div > div.slds-form-element > div.slds-form-element__control > div.slds-size_1-of-1, 
-div#modalRedencionExitosaContent > article.slds-card > div.slds-card__body > div.custom-container > div > div.slds-form-element > div.slds-form-element__control > div.slds-size_1-of-1 > p{
+div#modalRedencionExitosaContent > article.slds-card > div.slds-card__body > div.custom-container > div > div.slds-form-element > div.slds-form-element__control > div.slds-size_1-of-1 > p{    
+    background: transparent;
+    color: #1c297a;
+    margin: 0;
+    padding: 0 20px;    
     text-align: center;
+}
+
+div#modalRedencionExitosaContent > article.slds-card > div.slds-card__body > div.custom-container > div > div.slds-form-element > div.slds-form-element__control > div.slds-size_1-of-1 > img{
+    margin-bottom: 20px;
+    max-width: 225px;
+    width: 30%;    
 }
 
 div#modalRedencionExitosaContent > article.slds-card > div.slds-card__body > div.custom-container > div > div.slds-form-element > div.slds-form-element__control > div{
