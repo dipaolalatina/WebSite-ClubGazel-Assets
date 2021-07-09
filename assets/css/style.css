@@ -664,9 +664,14 @@ nav.fielo-paginator > a.fielo-link__previous, nav.fielo-paginator > a.fielo-link
     padding: 5px 20px;    
 }
 
-/* REDIME */
+td.fielo-field--is-F_Descripcion__c::before{
+    font-weight: bold;
+    color: #143dff;
+    background: #e3e3e3;
+    vertical-align: middle;
+}
 
-.redime__contenedorWidget{}
+/* REDIME */
 
 nav.slds-nav-vertical{
     background: #fff;
@@ -795,7 +800,13 @@ div#modalRedencionContent > article.slds-card, div#modalRedencionExitosaContent 
     background-size: 93px;
     margin: 0px 20px;
     padding-top: 50px;
-    width: 55%!important;
+    width: 86%!important;
+}
+
+@media (min-width:1080px) {
+    .tituloProducto{
+        width: 55%!important;
+    }
 }
 
 div.redimirModalImagen > div.slds-form-element > div.slds-form-element__control > div > img{
@@ -877,6 +888,16 @@ div#modalRedencionExitosaContent > article.slds-card > div.slds-card__body > div
     padding-top: 20px;
 }
 
+div#modalRedencionExitosaContent > article.slds-card > div.slds-card__body > div.custom-container > div > div.slds-form-element > div.slds-form-element__control > div > div > p{
+    padding: 0 15px;
+}
+
+@media (min-width:1080px) {
+    div#modalRedencionExitosaContent > article.slds-card > div.slds-card__body > div.custom-container > div > div.slds-form-element > div.slds-form-element__control > div > div > p{
+        padding: 0;
+    }
+}
+
 div#modalRedencionExitosaContent > article.slds-card > footer.slds-card__footer{
     background: #1c297a;
     margin: 0;
@@ -888,8 +909,14 @@ div#modalRedencionExitosaContent > article.slds-card > footer.slds-card__footer 
     color: #96d63a;
     font-size: 1.2rem;
     margin: 0 auto 20px auto;
-    max-width: 33%;
+    max-width: 55%;
     padding: 5px 40px;    
     text-align: center;
     text-decoration: none;
+}
+
+@media (min-width:1080px) {
+    div#modalRedencionExitosaContent > article.slds-card > footer.slds-card__footer > a.slds-card__footer-action{
+        max-width: 33%;
+    }
 }
