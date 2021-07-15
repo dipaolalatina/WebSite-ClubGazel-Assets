@@ -342,7 +342,14 @@ div.fieloplt-login > form > fieldset > div.fielo-field--is-username > div {
     font-size: 1.2em;
     font-weight: bold;
     padding-right: 30px;
-    text-align: right;
+    text-align: left;
+}
+
+@media (min-width:1080px) {
+    .fielo-field--is-username > .fielo-field__label,
+    .fielo-field--is-password > .fielo-field__label{
+        text-align: right;
+    }
 }
 
 .fielo-field--is-username > .fielo-field__value > input,
