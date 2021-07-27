@@ -286,12 +286,14 @@ div.home__seccionMapa{
 }
 
 div#divmapaEstaciones > div#divContent{
-    margin: 0 95px;
+    margin: 0 80px;
 }
 
 div#divmapaEstaciones > div#divContent > div.slds-form-element > div.slds-form-element > div.slds-form-element__control > div.slds-select_container > select.slds-select{
-    width: 95%;
+    background: #f2f2f2;
     margin: 0 auto;
+    padding: 5px;
+    width: 95%;
 }
 
 /* LOGIN */
