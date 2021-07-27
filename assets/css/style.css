@@ -57,15 +57,11 @@
     font-style: normal;
 }
 
-
-
 /*Colores*/
 
 .blue{color: #2540f8!important;}
 .darkBlue{color: #002382!important;}
-
 .green{color: #9ddf36!important;}
-
 .white{color: #ffffff!important;}
 
 .opa-0{opacity: 0;}
@@ -289,6 +285,15 @@ div.home__seccionMapa{
     padding-bottom: 3rem;
 }
 
+div#divmapaEstaciones > div#divContent{
+    margin: 0 95px;
+}
+
+div#divmapaEstaciones > div#divContent > div.slds-form-element > div.slds-form-element > div.slds-form-element__control > div.slds-select_container > select.slds-select{
+    width: 95%;
+    margin: 0 auto;
+}
+
 /* LOGIN */
 
 legend.fielo-title{
@@ -470,6 +475,17 @@ button.registro__popUp-boton{
     font-size: 1rem;
     outline: none;
     padding: 3px 30px;
+}
+
+.slds-scope .slds-form-element__help, .slds-scope .slds-form-element__helper{
+    font-size: 1rem;
+    font-weight: 600;
+    color: red;
+}
+
+.slds-scope .slds-modal__close{
+    top: -.8rem;
+    right: -.5rem;
 }
 
 /* QUIENES SOMOS */
