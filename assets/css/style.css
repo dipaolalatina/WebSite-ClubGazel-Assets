@@ -488,6 +488,7 @@ button.registro__popUp-boton{
 .slds-scope .slds-modal__close{
     top: -.8rem;
     right: -.5rem;
+    z-index: 10;
 }
 
 /* QUIENES SOMOS */
