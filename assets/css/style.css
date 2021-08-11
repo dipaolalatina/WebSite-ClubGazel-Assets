@@ -286,7 +286,13 @@ div.home__seccionMapa{
 }
 
 div#divmapaEstaciones > div#divContent{
-    margin: 0 80px;
+    margin: 0 10px;
+}
+
+@media (min-width:1080px) {
+    div#divmapaEstaciones > div#divContent{
+        margin: 0 80px;
+    }
 }
 
 div#divmapaEstaciones > div#divContent > div.slds-form-element > div.slds-form-element > div.slds-form-element__control > div.slds-select_container > select.slds-select{
