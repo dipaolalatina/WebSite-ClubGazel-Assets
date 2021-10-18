@@ -635,7 +635,7 @@ div.yaEresParte__form > div.slds-scope > div.slds-size_1-of-2.slds-max-small-siz
     background: #f7f7f7;
 }
 
-p.politicas__parrafo{
+p.politicas__parrafo, li.politicas__parrafo {
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     line-height: 1.5rem;
