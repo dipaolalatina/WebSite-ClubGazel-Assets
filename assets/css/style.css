@@ -159,8 +159,8 @@ header.fielo-outline.fielo-header{
     .fielo-menu.fielo-menu--isHorizontal.fielo-navigation nav.fielo-menu__block ul.fielo-list.fielo-list--is-unordered{
         background-image: url('../images/ui/logoClubGazel.svg');
         background-repeat: no-repeat;
-        background-size: 12%;
-        background-position: 10% 57%;
+        background-size: 14%;
+        background-position: 8% 58%;
         padding: 50px 0px 40px 430px;    
     }
 }
