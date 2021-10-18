@@ -795,11 +795,11 @@ div.slds-section__title-action{
 }
 
 .slds-scope .slds-card{    
-    background-image: url('../images/ui/redime__logo.png');
+    /* background-image: url('../images/ui/redime__logo.png'); */
     background-position: 25px 20px;
     background-repeat: no-repeat;
     background-size: 93px;    
-    padding-top: 60px;
+    padding-top: 30px;/* 60px */
 }
 
 h1.redime__nombre {
