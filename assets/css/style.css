@@ -523,7 +523,7 @@ p.quienesSomos__seccion-1-parrafo{
 @media (min-width:1080px) {
     .quienesSomos__seccion-2{
         background-position: 100% 50%;
-        background-size: 50%;
+        background-size: 54%; /* 50% */
     }
 }
 
