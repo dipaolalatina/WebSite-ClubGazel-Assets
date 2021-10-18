@@ -499,6 +499,10 @@ button.registro__popUp-boton{
 
 /* QUIENES SOMOS */
 
+.quienesSomos__seccion-1-row, .quienesSomos__seccion-2-row, .quienesSomos__seccion-3-row, .quienesSomos__seccion-4-row{
+    min-height: 500px;
+}
+
 p.quienesSomos__seccion-1-parrafo{
     color: #002382;
     font-size: 1.2rem;
@@ -517,7 +521,6 @@ p.quienesSomos__seccion-1-parrafo{
     background-position: 100% 0%;
     background-repeat: no-repeat;
     background-size: 100%;
-    min-height: 470px;
 }
 
 @media (min-width:1080px) {
@@ -525,10 +528,6 @@ p.quienesSomos__seccion-1-parrafo{
         background-position: 100% 50%;
         background-size: 54%; /* 50% */
     }
-}
-
-.quienesSomos__seccion-2-row{
-    min-height: 470px;
 }
 
 h1.quienesSomos__titulo2-blanco{
