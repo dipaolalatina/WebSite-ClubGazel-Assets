@@ -497,6 +497,26 @@ button.registro__popUp-boton{
     z-index: 10;
 }
 
+.slds-scope .slds-select_container:before{
+    display: none;
+}
+
+.slds-scope .slds-select_container:after {
+    border-top: 10px solid rgb(203, 203, 203);
+    bottom: calc((1.75rem / 2) + 4px);
+    right: calc((1.75rem / 2) + 3px);
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+}
+
+.slds-scope .slds-select, .slds-scope .slds-input{
+    border: 1px solid rgb(203, 203, 203);
+    border-radius: 0!important;
+    height: calc(1.875rem + (10px * 2));
+    min-height: calc(1.875rem + (10px * 2));    
+    font-size: 16px;
+}
+
 /* QUIENES SOMOS */
 
 .quienesSomos__seccion-1-row, .quienesSomos__seccion-2-row, .quienesSomos__seccion-3-row, .quienesSomos__seccion-4-row{
